@@ -20,10 +20,6 @@ env:
 install:
   - sudo apt-get install cmake libpopt-dev
 
-before_script:
-  - mkdir _build
-  - cd _build
-
 # Run the Build script
 script:
   - go run scripts/build.go
